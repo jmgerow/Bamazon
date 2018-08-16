@@ -35,7 +35,7 @@ function displayProducts() {
                     }
                     return choiceArray;
                 },
-                message: "Please select an item to purchase"
+                // message: "Please select an item to purchase"
             },
             {
                 name: "selectQuantity",
@@ -87,28 +87,4 @@ function displayProducts() {
     });
 };
 
-// var selectedItem;
-// var selectedQuantity;
-
-// function customerPrompt() {
-//     inquirer.prompt([
-//             {
-//                 type: "input",
-//                 message: "Please enter the ID # for the selected item",
-//                 name: "orderNumber"
-//             },
-//             {
-//                 type: "input",
-//                 message: "Please enter the quantity you'd like to purchase",
-//                 name: "orderQuantity"
-//             }
-
-//         ])
-//         .then(function (answer) {
-//             console.log(answer.orderNumber);
-//             console.log(answer.orderQuantity);
-
-//         })
-
-// };
 
