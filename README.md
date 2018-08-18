@@ -13,13 +13,17 @@ Running Bamazon Mananger will allow the user to:
 * Add a new product
 
 To run the Bamazon Customer, type node bamazoncustomer.js. This will display the available products and a prompt to select a product to purchase from a list:
+
 ![image](/images/bamcustomer1.PNG)
 
 Once a product is selected the user can then choose the quantity to purchase:
+
 ![image](/images/bamcustomer2.PNG)
 
 If there is enough product in stock your order will be placed for the selected quantity and will display the total cost:
+
 ![image](/images/bamcustomer3.PNG)
 
 If there is not enough product in stock the user will be prompted:
+
 ![image](/images/bamcustomer4.PNG)
