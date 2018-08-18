@@ -6,7 +6,7 @@ This application consists of two modules: Bamazon Customer and Bamazon Manager.
 * View inventory in the store including item ID, product name, price, and stock quantity.
 * Order selected product as long as there is enough product in stock.
 
-## Running Bamazon Mananger will allow the user to:
+## Running Bamazon Manager will allow the user to:
 * View available inventory
 * View items with low inventory levels
 * Add to inventory
