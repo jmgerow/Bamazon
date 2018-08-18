@@ -1,18 +1,18 @@
-#Welcome to Bamazon!
+# Welcome to Bamazon!
 
 This application consists of two modules: Bamazon Customer and Bamazon Manager.
 
-##Running Bamazon Customer will allow user to: 
+## Running Bamazon Customer will allow user to: 
 * View inventory in the store including item ID, product name, price, and stock quantity.
 * Order selected product as long as there is enough product in stock.
 
-##Running Bamazon Mananger will allow the user to:
+## Running Bamazon Mananger will allow the user to:
 * View available inventory
 * View items with low inventory levels
 * Add to inventory
 * Add a new product
 
-###To run the Bamazon Customer:
+### To run the Bamazon Customer:
 type node bamazoncustomer.js in terminal. This will display the available products and a prompt to select a product to purchase from a list:
 
 ![image](/images/bamcustomer1.PNG)
@@ -29,7 +29,7 @@ If there is not enough product in stock the user will be prompted:
 
 ![image](/images/bamcustomer4.PNG)
 
-###To run Bamazon Manager:
+### To run Bamazon Manager:
 type node bamazonmanager.js into terminal. This will allow the user to select from 4 options:
 
 ![image](/images/bammanager1.PNG)
